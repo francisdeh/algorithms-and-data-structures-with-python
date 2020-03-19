@@ -1,3 +1,3 @@
-#Grokking Algorithms and Data Structure in Python
+# Grokking Algorithms and Data Structure in Python
 ## Search
 - Binary Search
