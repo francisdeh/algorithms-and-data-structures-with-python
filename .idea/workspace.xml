@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2030c85-adf1-417b-97a7-0a840295bb7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/quicksort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/quicksort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/random_assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/random_assignment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
       <recent name="$PROJECT_DIR$/assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_quicksort.QuickSortTest">
+  <component name="RunManager" selected="Python.random_assignment">
     <configuration name="quicksort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.random_assignment" />
         <item itemvalue="Python tests.Python tests for test_quicksort.QuickSortTest" />
         <item itemvalue="Python.quicksort" />
         <item itemvalue="Python tests.Python tests for test_selection_sort.SelectionSortTest" />
         <item itemvalue="Python.selection_sort" />
-        <item itemvalue="Python.random_assignment" />
       </list>
     </recent_temporary>
   </component>
