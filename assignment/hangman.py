@@ -103,6 +103,9 @@ def get_guess(word):
 
 
 def process_guess(guess, word):
+    if len(guess) == 0:
+        raise ValueError("Guess has invalid length")
+
     if len(guess) > 1 and len(guess) == len(word):
         return whole_word_guess(guess, word)
     else:
@@ -111,7 +114,9 @@ def process_guess(guess, word):
 
 def whole_word_guess(guess, word):
     global lives_remaining
+    global guessed_letters
     if guess.lower() == word.lower():
+        guessed_letters = guess
         return True
     else:
         lives_remaining -= 1
@@ -138,7 +143,12 @@ def play():
     word = pick_a_word()
     while True:
         guess = get_guess(word)
-        has_won = process_guess(guess, word)
+        has_won = False
+        try:
+            has_won = process_guess(guess, word)
+        except ValueError as e:
+            print(e)
+
         if has_won:
             print("You win. hurray 👑")
             break
@@ -148,4 +158,5 @@ def play():
             break
 
 
-play()
+if __name__ == "__main__":
+    play()
