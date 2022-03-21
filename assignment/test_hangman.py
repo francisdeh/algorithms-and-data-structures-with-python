@@ -34,7 +34,7 @@ class TestHangman(unittest.TestCase):
         self.assertTrue(whole_word_guess(self.correct_guess, self.word))
 
     def test_single_letter_guess_is_valid(self):
-        for letter in self.word:
+        for letter in self.correct_guess:
             single_letter_guess(letter, self.word)
         self.assertTrue(all_letters_guessed(self.word))
 

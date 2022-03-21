@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2030c85-adf1-417b-97a7-0a840295bb7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assignment/test_hangman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/hangman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/hangman_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/hangman_words.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/test_hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/test_hangman.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1ZKnhm0aDs4VhE9sXIzdImk3Ndh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,13 +37,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_hangman.TestHangman">
+  <component name="RunManager" selected="Python.hangman">
     <configuration name="hangman" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,14 +131,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_hangman.TestHangman" />
         <item itemvalue="Python.hangman" />
+        <item itemvalue="Python tests.Python tests for test_hangman.TestHangman" />
         <item itemvalue="Python tests.Python tests for test_hangman.TestHangman.test_pick_a_word_returns_word_in_list" />
         <item itemvalue="Python.random_assignment" />
         <item itemvalue="Python tests.Python tests for test_quicksort.QuickSortTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -160,5 +167,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/searching" />
+    </ignored-roots>
   </component>
 </project>

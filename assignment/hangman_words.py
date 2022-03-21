@@ -287,7 +287,6 @@ word_list = [
     'danger',
     'bruise',
     'seminar',
-    'tinge',
     'trip',
     'narrow',
     'while',
